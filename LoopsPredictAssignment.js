@@ -13,6 +13,10 @@ for(var num = 0; num < 15; num++){
 // 8
 // 9
 // 10
+// 11
+// 12
+// 13
+// 14
 
 
 //Predict 2
@@ -21,7 +25,7 @@ for(var i = 1; i < 10; i+=2){
     console.log(i);
   }
 }
-// starting at number 1 and ending at number 9, add 2 after each number and only include all numbers that are multiples of 3
+// starting at number 1 and ending at number 9, add 2 after each number and only print numbers that are multiples of 3 on the console log
 // 3
 // 9
 
