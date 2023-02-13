@@ -1,0 +1,32 @@
+
+brown@Sisi MINGW64 ~
+$ dotnet --version
+6.0.405
+
+brown@Sisi MINGW64 ~
+$ dotnet new console -o FirstCSharp
+The template "Console App" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on C:\Users\brown\FirstCSharp\FirstCSharp.csproj...
+  Determining projects to restore...
+  Restored C:\Users\brown\FirstCSharp\FirstCSharp.csproj (in 113 ms).
+Restore succeeded.
+
+
+
+brown@Sisi MINGW64 ~
+$ cd FirstCSharp
+
+brown@Sisi MINGW64 ~/FirstCSharp
+$ dotnet new console
+Creating this template will make changes to existing files:
+  Overwrite   ./FirstCSharp.csproj
+  Overwrite   ./Program.cs
+
+Rerun the command and pass --force to accept and create.
+
+
+brown@Sisi MINGW64 ~/FirstCSharp
+$ dotnet run
+Hello, World!
